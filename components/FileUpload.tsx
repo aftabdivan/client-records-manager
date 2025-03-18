@@ -50,7 +50,7 @@ const FileUpload = (props: any) => {
             props?.setCurrentPage(1) // Reset to first page after upload
     
             if (duplicateEntries.length > 0) {
-              alert(`${duplicateEntries.length} duplicate record(s) were not added due to duplicate ID or Email.`);
+              alert(`${duplicateEntries.length} duplicate records were not added due to duplicate ID or Email.`);
             }
     
           } catch (error) {

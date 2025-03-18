@@ -8,7 +8,6 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Client Records Management",
   description: "A React application for managing client records",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
