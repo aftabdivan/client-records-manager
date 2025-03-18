@@ -20,7 +20,7 @@ interface ClientRecord {
   email: string
 }
 
-export default function Home() {
+const Home = () => {
   // State for client records
   const [records, setRecords] = useState<ClientRecord[]>([])
   const [filteredRecords, setFilteredRecords] = useState<ClientRecord[]>([])
@@ -152,3 +152,4 @@ export default function Home() {
   )
 }
 
+export default Home;
