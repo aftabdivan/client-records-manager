@@ -53,6 +53,15 @@ const Home = () => {
     handleSearch(searchTerm)
   }, [searchTerm])
 
+  useEffect(() => {
+    // Ensure currentPage is within the valid range
+    const maxPage = Math.ceil(filteredRecords.length / recordsPerPage);
+    if (currentPage > maxPage) {
+      setCurrentPage(maxPage > 0 ? maxPage : 1);
+    }
+  }, [filteredRecords, recordsPerPage, currentPage]);
+  
+
   // Handle search
   const handleSearch = (term: string) => {
     const filtered = records.filter(
