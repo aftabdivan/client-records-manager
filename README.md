@@ -98,7 +98,7 @@ yarn build
 
 Then, you can start the production server:
 
-\```bash
+
 npm start
 # or
 yarn start
@@ -108,3 +108,7 @@ yarn start
 
 This project is licensed under the MIT License.
 
+
+\```bash![Client Record Manager 3](https://github.com/user-attachments/assets/e8173a74-8a2f-4ea6-aa70-772bf869e653)
+![Client Record Manager 2](https://github.com/user-attachments/assets/3ff3e1d6-130c-4365-84e7-f925e8c0eca7)
+![Client Record Manager 1](https://github.com/user-attachments/assets/dff86d09-b62f-4e96-a9f5-00cc282ddab1)
