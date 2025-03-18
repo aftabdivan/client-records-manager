@@ -33,8 +33,8 @@ A React application that allows users to manage client records by uploading JSON
 1. Clone the repository:
 
 \```bash
-git clone https://github.com/your-username/client-records-management.git
-cd client-records-management
+git clone https://github.com/aftabdivan/client-records-manager.git
+cd client-records-manager
 \```
 
 2. Install dependencies:
